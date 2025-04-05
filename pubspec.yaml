@@ -1,14 +1,10 @@
 name: shadcn_flutter
-description: "Beautifully designed components from Shadcn/UI is now available for Flutter"
-version: 0.0.34
-homepage: "https://github.com/sunarya-thito/shadcn_flutter"
-documentation: "https://sunarya-thito.github.io/shadcn_flutter/"
-repository: "https://github.com/sunarya-thito/shadcn_flutter"
-issue_tracker: "https://github.com/sunarya-thito/shadcn_flutter/issues"
+description: 'Beautifully designed components from Shadcn/UI is now available for Flutter'
+version: 0.0.30
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
-  flutter: ">=3.29.0"
+  flutter: '>=3.27.0'
 
 dependencies:
   email_validator: ^3.0.0
@@ -23,70 +19,64 @@ dependencies:
   web: ^1.0.0
   data_widget: ^0.0.2
   gap: ^3.0.1
-  expressions: ^0.2.5+2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
   icon_font_generator: ^4.0.0
-  archive: any
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
   uses-material-design: true
   fonts:
     - family: RadixIcons
       fonts:
-        - asset: "lib/icons/RadixIcons.otf"
+        - asset: 'asset/icon/RadixIcons.otf'
     - family: BootstrapIcons
       fonts:
-        - asset: "lib/icons/BootstrapIcons.otf"
+        - asset: 'asset/icon/BootstrapIcons.otf'
     - family: LucideIcons
       fonts:
-        - asset: "lib/icons/LucideIcons.ttf"
-    - family: "GeistSans"
+        - asset: 'asset/icon/LucideIcons.ttf'
+    - family: 'GeistSans'
       fonts:
-        - asset: "lib/fonts/Geist-Black.otf"
+        - asset: 'asset/font/Geist-Black.otf'
           weight: 800
-        - asset: "lib/fonts/Geist-Bold.otf"
+        - asset: 'asset/font/Geist-Bold.otf'
           weight: 700
-        - asset: "lib/fonts/Geist-Light.otf"
+        - asset: 'asset/font/Geist-Light.otf'
           weight: 300
-        - asset: "lib/fonts/Geist-Medium.otf"
+        - asset: 'asset/font/Geist-Medium.otf'
           weight: 500
-        - asset: "lib/fonts/Geist-SemiBold.otf"
+        - asset: 'asset/font/Geist-SemiBold.otf'
           weight: 600
-        - asset: "lib/fonts/Geist-Thin.otf"
+        - asset: 'asset/font/Geist-Thin.otf'
           weight: 100
-        - asset: "lib/fonts/Geist-UltraBlack.otf"
+        - asset: 'asset/font/Geist-UltraBlack.otf'
           weight: 900
-        - asset: "lib/fonts/Geist-UltraLight.otf"
+        - asset: 'asset/font/Geist-UltraLight.otf'
           weight: 200
-        - asset: "lib/fonts/Geist-Regular.otf"
+        - asset: 'asset/font/Geist-Regular.otf'
           weight: 400
-    - family: "GeistMono"
+    - family: 'GeistMono'
       fonts:
-        - asset: "lib/fonts/GeistMono-Black.otf"
+        - asset: 'asset/font/GeistMono-Black.otf'
           weight: 800
-        - asset: "lib/fonts/GeistMono-Bold.otf"
+        - asset: 'asset/font/GeistMono-Bold.otf'
           weight: 700
-        - asset: "lib/fonts/GeistMono-Light.otf"
+        - asset: 'asset/font/GeistMono-Light.otf'
           weight: 300
-        - asset: "lib/fonts/GeistMono-Medium.otf"
+        - asset: 'asset/font/GeistMono-Medium.otf'
           weight: 500
-        - asset: "lib/fonts/GeistMono-Regular.otf"
+        - asset: 'asset/font/GeistMono-Regular.otf'
           weight: 400
-        - asset: "lib/fonts/GeistMono-SemiBold.otf"
+        - asset: 'asset/font/GeistMono-SemiBold.otf'
           weight: 600
-        - asset: "lib/fonts/GeistMono-Thin.otf"
+        - asset: 'asset/font/GeistMono-Thin.otf'
           weight: 100
-        - asset: "lib/fonts/GeistMono-UltraBlack.otf"
+        - asset: 'asset/font/GeistMono-UltraBlack.otf'
           weight: 900
-        - asset: "lib/fonts/GeistMono-UltraLight.otf"
+        - asset: 'asset/font/GeistMono-UltraLight.otf'
           weight: 200
 
 topics:
@@ -95,4 +85,3 @@ topics:
   - design
   - components
   - shadcn-ui
-
