@@ -157,7 +157,7 @@ export 'src/util/subtract_by_border.dart';
 export 'src/util/swap_item_in_lists.dart';
 export 'src/util/time_of_day.dart';
 export 'src/util/tween_value.dart';
-export 'src/util/types.dart';
+export 'src/util/types.dart' hide Consumer;
 export 'src/util/unlerp_double.dart';
 export 'src/util/widget_tree_change_detector.dart';
 export 'src/util/wrap_double.dart';

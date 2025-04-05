@@ -445,9 +445,9 @@ class ShadcnLayer extends StatelessWidget {
     this.menuHandler,
     this.enableThemeAnimation = true,
   });
-
   @override
   Widget build(BuildContext context) {
+    var platformBrightness = MediaQuery.platformBrightnessOf(context);
     var mobileMode = isMobile(theme.platform);
     return OverlayManagerLayer(
       menuHandler: menuHandler ?? (mobileMode ? const SheetOverlayHandler() : const PopoverOverlayHandler()),
@@ -465,11 +465,11 @@ class ShadcnLayer extends StatelessWidget {
               child: ShadcnSkeletonizerConfigLayer(
                 theme: theme,
                 child: DefaultTextStyle.merge(
-                  style: theme.typography.s3.copyWith(
+                  style: theme.typography.s4.copyWith(
                     color: theme.colorScheme.foreground,
                   ),
                   child: IconTheme.merge(
-                    data: theme.icons.s5.copyWith(
+                    data: theme.icons.s4.copyWith(
                       color: theme.colorScheme.foreground,
                     ),
                     child: RecentColorsScope(

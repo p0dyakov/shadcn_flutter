@@ -97,7 +97,7 @@ class _OutlinedContainerState extends State<OutlinedContainer> {
     final ThemeData theme = Theme.of(context);
     final scaling = theme.scaling;
     var borderRadius =
-        widget.borderRadius?.resolve(Directionality.of(context)) ?? BorderRadius.circular(theme.radiuses.r5);
+        widget.borderRadius?.resolve(Directionality.of(context)) ?? BorderRadius.circular(theme.radiuses.r3);
     var backgroundColor = widget.backgroundColor ?? theme.colorScheme.background;
     if (widget.surfaceOpacity != null) {
       backgroundColor = backgroundColor.scaleAlpha(widget.surfaceOpacity!);
